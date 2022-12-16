@@ -1,13 +1,14 @@
-[
-  {
-    "id": 1,
-    "email": "jackson.lu@vonage.com",
-    "phone": "8613430525002",
-    "name": "Jackson Lu",
-    "cc_balance": "76.31",
-    "delivery_date": "12/12/2022",
-    "last_digits": "1234",
-    "due_date": "seventh day of every month",
-    "currency": "$"
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
